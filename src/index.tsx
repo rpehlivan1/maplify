@@ -4,6 +4,12 @@ import './index.css';
 import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
 
+import 'rsuite/lib/styles/index.less'
+import 'rsuite/dist/styles/rsuite-default.css'
+
+import './fonts/Nunito-Regular.ttf';
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
