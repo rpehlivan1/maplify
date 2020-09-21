@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {Content} from 'rsuite';
 import CustomInput from './CustomInput';
 import '../scss/content.scss'
