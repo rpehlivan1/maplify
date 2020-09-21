@@ -1,7 +1,7 @@
 import React from 'react';
 import {Content} from 'rsuite';
-import CustomInput from './CustomInput';
 import '../scss/content.scss'
+import CustomModal from './CustomModal';
 
 const CustomContent = () => {
   return (
@@ -9,7 +9,7 @@ const CustomContent = () => {
       <div>
         <h2>More than just map</h2>
         <span className="location-span">Type any character find any location!</span>
-        <CustomInput/>
+        <CustomModal/>
       </div>
     </Content>
   )
