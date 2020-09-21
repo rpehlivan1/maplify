@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Input, InputGroup, Icon } from 'rsuite';
 
 
-
 const CustomInput = () => {
   const [location, setLocation] = useState('')
 
